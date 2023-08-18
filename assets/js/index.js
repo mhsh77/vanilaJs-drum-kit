@@ -1,6 +1,6 @@
 
 function play(name) {
-    var sound = new Audio(`../assets/sounds/${name}.wav`)
+    var sound = new Audio(`https://github.com/mhsh77/vanilaJs-drum-kit/raw/main/assets/sounds/${name}.wav`)
     
     sound.play()
         
